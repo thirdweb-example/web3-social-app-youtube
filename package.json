@@ -11,9 +11,10 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
-    "@thirdweb-dev/react": "^3",
-    "@thirdweb-dev/sdk": "^3",
+    "@thirdweb-dev/react": "^4.0.6",
+    "@thirdweb-dev/sdk": "^4.0.5",
     "ethers": "^5",
+    "lottie-react": "^2.4.0",
     "next": "^13",
     "react": "^18.2",
     "react-dom": "^18.2"
