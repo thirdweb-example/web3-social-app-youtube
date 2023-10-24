@@ -8,6 +8,7 @@ import "../styles/globals.css";
 const activeChain = "mumbai";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  //Set up smart wallet config
   const smartWalletConfig = {
     factoryAddress: "0xb073ab62195b46fd43ae74e86fb978f0a234d94b",
     gasless: true,
