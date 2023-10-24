@@ -2,7 +2,7 @@
 
 [How to build a web3 Twitter clone](https://youtu.be/MOkVqYjAIbY)
 
-Learn how to create a simple web3 Twitter clone app, where a wallet can post a status update. All updates are emitted as events and are displayed in a feed. Learn how to filter through events and create profile pages showing only the status updates done by a specific wallet address
+Learn how to create a simple web3 Twitter clone app, where a wallet can post a status update. All updates are emitted as events and are displayed in a feed. Learn how to filter through events and create profile pages showing only the status updates done by a specific wallet address.
 
 ## Environment Variables
 
