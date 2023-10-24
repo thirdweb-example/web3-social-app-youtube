@@ -175,7 +175,7 @@
   overflow: none;
   padding: 0 1rem 0 1rem;
   margin: 40px 0 40px 0;
-  font-size: 1.25rem;
+  font-size: 16px;
 }
 .updateButton {
   background-color: #222;
@@ -282,6 +282,7 @@
   border: none;
   resize: none;
   margin-bottom: 20px;
+  font-size: 16px;
 }
 .characterCountContainer {
   display: flex;
@@ -332,6 +333,7 @@
   margin-bottom: 10px;
   width: 100%;
   max-width: 500px;
+  font-size: 16px;
 }
 .eventHeader {
   display: flex;

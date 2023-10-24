@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     factoryAddress: "0xb073ab62195b46fd43ae74e86fb978f0a234d94b",
     gasless: true,
   };
+  
   return (
     <ThirdwebProvider
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}

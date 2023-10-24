@@ -20,7 +20,7 @@ export default function EventCard(props: EventCardProps) {
                 </Link>
                 <p style={{ fontSize: "0.75rem" }}>{date.toLocaleString()}</p>
             </div>
-            <p style={{ fontSize: "1.25rem"}}>{props.newStatus}</p>
+            <p style={{ fontSize: "16px"}}>{props.newStatus}</p>
         </div>
     );
 };

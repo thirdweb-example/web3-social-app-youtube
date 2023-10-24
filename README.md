@@ -1,15 +1,8 @@
-## Getting Started
+## Create a Web3 Twitter clone YouTube Tutorial
 
-Create a project using this example:
+[How to build a web3 Twitter clone](https://youtu.be/MOkVqYjAIbY)
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+Learn how to create a simple web3 Twitter clone app, where a wallet can post a status update. All updates are emitted as events and are displayed in a feed. Learn how to filter through events and create profile pages showing only the status updates done by a specific wallet address
 
 ## Environment Variables
 
