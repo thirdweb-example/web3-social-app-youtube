@@ -1,33 +1,34 @@
-## Create a Web3 Twitter clone YouTube Tutorial
+## Create a Web3 Twitter
 
-[How to build a web3 Twitter clone](https://youtu.be/MOkVqYjAIbY)
 
-Learn how to create a simple web3 Twitter clone app, where a wallet can post a status update. All updates are emitted as events and are displayed in a feed. Learn how to filter through events and create profile pages showing only the status updates done by a specific wallet address.
 
-## Environment Variables
+# MetaStatus - A MetaMask-Only Status Update Platform
 
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+MetaStatus is a decentralized application (dApp) that offers a simple yet powerful social experience. It allows users to register and authenticate exclusively via MetaMask, post status updates, and view updates from other users on the Ethereum blockchain.
 
-## Deploy to IPFS
+## Features
 
-Deploy a copy of your application to IPFS using the following command:
+- **MetaMask Authentication**: Secure sign-in that ensures only the owner of an Ethereum address can post and interact with statuses.
+- **Status Updates**: Users can post their thoughts, updates, and any text content tied to their Ethereum address.
+- **Browse Updates**: Scroll through a feed of status updates posted by other users on the platform.
+- **Ethereum Integration**: All statuses are transactions and are recorded on the Ethereum blockchain for transparency and immutability.
 
-```bash
-yarn deploy
-```
+## Quick Start
 
-## Learn More
+To get started with MetaStatus, follow these steps:
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+### Prerequisites
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
+- Node.js (v14.0 or higher)
+- npm (v6.0 or higher)
+- MetaMask extension installed in your browser
+- A little ETH in your MetaMask wallet for gas fees (if interacting with the mainnet)
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+### Installation
 
-## Join our Discord!
+1. Clone the repository to your local machine:
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+```sh
+git clone https://github.com/your-username/MetaStatus.git
+![Снимок экрана 2024-02-25 233031](https://github.com/thirdweb-example/web3-social-app-youtube/assets/156776337/a6b7dae4-bd4b-4008-a601-3e65f654951a)
+![Снимок экрана 2024-02-25 233116](https://github.com/thirdweb-example/web3-social-app-youtube/assets/156776337/2943f2ef-9d1a-475c-bfbf-6ca120917f45)
